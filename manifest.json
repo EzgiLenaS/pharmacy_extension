@@ -1,0 +1,32 @@
+{
+    "manifest_version": 3,
+    "name": "Ezcane - İlaç karekod tarayıcı",
+    "version": "0.1.8",
+    "description": "Kopyalanan ilaç kodlarını ecza depo sitelerinde sırasıyla aratır.",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "clipboardRead"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "sw.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*"
+            ],
+            "js": [
+                "depots.config.local.js",
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ]
+}
