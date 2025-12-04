@@ -2,7 +2,7 @@
 
 **Chrome Web Store'da yayımlanmış basit ve kullanışlı bir tarayıcı eklentisi**
 
-🔗 [Chrome Web Store'da Görüntüle](https://chromewebstore.google.com/detail/jnpfjfojepcgldffnpjkkfjjapmepkgkc)
+🔗 [Chrome Web Store'da Görüntüle](https://chromewebstore.google.com/detail/ezcane-i%CC%87la%C3%A7-karekod-tara/jnpffjojepcgldffnpjkkfjapmepkgkc?hl=tr)
 
 ---
 
